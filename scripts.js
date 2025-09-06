@@ -1,6 +1,6 @@
 // aray to store initial tasks
 // Each task has an id, title, description, and status (todo, doing, done)
-// added 3 more tasks
+// created function to add new tasks with user input and validation
 const initialTasks = [
   { id: 1, title: "Launch Epic Career", description: "Create a killer Resume", status: "todo" },
   { id: 2, title: "Master JavaScript", description: "Get comfortable with the fundamentals", status: "doing" },

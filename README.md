@@ -23,14 +23,14 @@ This project involves creating a **simple task management system** where users c
 - Use meaningful variable and function names to ensure readability and maintainability.
 - **Clean, Maintainable Code** - HTML, CSS, and JavaScript are separated into dedicated files, following best practices for readability and maintainability.
 
---
+---
 ### Technologies
 
 - **HTML5** – Semantic structure and layout.
 - **CSS3** – Styling, colours, and responsive design.
 - **JavaScript (ES6)** – Dynamic functionality, prompts, validation, and console output.
 
---
+---
 
 ## 🚀 Setup Instructions
 
@@ -42,10 +42,13 @@ This project involves creating a **simple task management system** where users c
 
 A **structured and limited task management system** that enables users to add, review, and filter tasks efficiently while ensuring **clean, well-documented, and maintainable code.**
 
-**Alert message of the maximum task required**
+**Alert message of the maximum task required:**
+
+
 ![enough task](./explainer-images/README-explainer-images/Enough-Tasks.png)
 
-**Console Log of all and completed tasks**
+**Console Log of all and completed tasks:**
+
 
 ![console log](./explainer-images/README-explainer-images/JSL03%20console.png)
 

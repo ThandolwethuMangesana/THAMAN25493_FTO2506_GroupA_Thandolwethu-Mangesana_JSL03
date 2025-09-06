@@ -22,22 +22,21 @@ const initialTasks = [
       "Gain practical experience and collaborate with others in the software development community",
     status: "done",
   },
-  {
-    id: 4,
-    title: "Correct JS02",
-    description: "Correct JSL02 before working on JS03",
-    status: "done",
-  },
-  {
-    id: 5,
-    title: "Start JS03",
-    description: "Start working on JS03 after correcting JS02",
-    status: "todo",
-  },
-  {
-    id: 6,
-    title: "Practice Coding Challenges",
-    description: "practice coding challenges on LMS to guage my understanding",
-    status: "doing",
-  },
 ];
+
+// Function to add a new task
+function addTask() {
+  const title = prompt("Enter task title:");
+  const description = prompt("Enter task description:");
+  let status = prompt("Enter task status ('todo', 'doing', or 'done'):").toLowerCase();
+
+  //Validtes the status input
+  while(
+    taskStatus !== "todo" &&
+    taskStatus !== "doing" &&
+    taskStatus !== "done"
+  );
+  
+  alert("Invalid status. Please enter 'todo', 'doing', or 'done'.");
+    status = prompt("Invalid status. Please enter 'todo', 'doing', or 'done':").toLowerCase();
+}
